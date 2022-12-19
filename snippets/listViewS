@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: ListView.Separated
+# key: listViewS
+# description: Creates a fixed-length scrollable linear array of list 'items' separated by list item 'separators'.
+# --
+ListView.separated(
+  itemCount: ${1:1},
+  separatorBuilder: (BuildContext context, int index) {
+    return ${2:};
+  },
+  itemBuilder: (BuildContext context, int index) {
+    return ${3:};
+  },
+),
+

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: ListView.Builder
+# key: listViewB
+# description: Creates a scrollable, linear array of widgets that are created on demand.Providing a non-null `itemCount` improves the ability of the [ListView] to estimate the maximum scroll extent.
+# --
+ListView.builder(
+  itemCount: ${1:1},
+  itemBuilder: (BuildContext context, int index) {
+    return ${2:};
+  },
+),
+

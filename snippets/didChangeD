@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: didChangeDependencies
+# key: didChangeD
+# description: Called when a dependency of this State object changes
+# --
+@override
+void didChangeDependencies() {
+  super.didChangeDependencies();
+  ${0:}
+}
+

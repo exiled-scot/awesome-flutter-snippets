@@ -1,0 +1,54 @@
+# -*- mode: snippet -*-
+# name: flutter_test Package
+# key: importFT
+# description: Import flutter_test package
+# --
+i
+m
+p
+o
+r
+t
+ 
+'
+p
+a
+c
+k
+a
+g
+e
+:
+f
+l
+u
+t
+t
+e
+r
+_
+t
+e
+s
+t
+/
+f
+l
+u
+t
+t
+e
+r
+_
+t
+e
+s
+t
+.
+d
+a
+r
+t
+'
+;
+

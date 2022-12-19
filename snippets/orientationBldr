@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Orientation Builder
+# key: orientationBldr
+# description: Creates a builder which allows for the orientation of the device to be specified and referenced
+# --
+OrientationBuilder(
+  builder: (BuildContext context, Orientation orientation) {
+    return Container(
+      child: ${3:child},
+    );
+  },
+),
+

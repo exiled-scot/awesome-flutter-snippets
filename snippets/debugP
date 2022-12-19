@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: debugPrint
+# key: debugP
+# description: Prints a message to the console, which you can access using the flutter tool's `logs` command (flutter logs).
+# --
+debugPrint(${1:statement});
+

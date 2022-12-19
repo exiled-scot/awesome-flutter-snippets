@@ -1,0 +1,45 @@
+# -*- mode: snippet -*-
+# name: Material Package
+# key: importM
+# description: Import flutter material package
+# --
+i
+m
+p
+o
+r
+t
+ 
+'
+p
+a
+c
+k
+a
+g
+e
+:
+f
+l
+u
+t
+t
+e
+r
+/
+m
+a
+t
+e
+r
+i
+a
+l
+.
+d
+a
+r
+t
+'
+;
+

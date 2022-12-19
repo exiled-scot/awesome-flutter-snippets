@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Group
+# key: f-group
+# description: Create a group test function
+# --
+group(
+  "${1:group description}",
+  () {},
+);
+

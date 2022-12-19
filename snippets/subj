@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Subject
+# key: subj
+# description: A BehaviorSubject is also a broadcast StreamController which returns an Observable rather than a Stream.
+# --
+Stream<${1:type}> get ${2:name} => _${2:name}Subject.stream;
+final _${2:name}Subject = BehaviorSubject<${1:type}>();
+

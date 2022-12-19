@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: InitState 
+# key: initS
+# description: Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.
+# --
+@override
+void initState() {
+  super.initState();
+  ${0:}
+}
+

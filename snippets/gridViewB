@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: GridView.Builder
+# key: gridViewB
+# description: Creates a scrollable, 2D array of widgets that are created on demand. Providing a non-null `itemCount` improves the ability of the [GridView] to estimate the maximum scroll extent.
+# --
+GridView.builder(
+  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+    crossAxisCount: ${1:2},
+  ),
+  itemCount: ${2:2},
+  itemBuilder: (BuildContext context, int index) {
+    return ${3:};
+  },
+),
+

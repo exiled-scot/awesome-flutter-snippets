@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Stream
+# key: strm
+# description: A source of asynchronous data events. A stream can be of any data type <T>
+# --
+Stream<${1:type}> get ${2:name} => _${2:name}Controller.stream;
+final _${2:name}Controller = StreamController<${1:type}>();
+

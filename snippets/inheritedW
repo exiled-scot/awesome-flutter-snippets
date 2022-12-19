@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: Inherited Widget
+# key: inheritedW
+# description: Class used to propagate information down the widget tree
+# --
+class ${1:Name} extends InheritedWidget {
+  const ${1:Name}({super.key, required this.child}) : super(child: child);
+
+  final Widget child;
+
+  static ${1:Name}? of(BuildContext context) {
+    return context.dependOnInheritedWidgetOfExactType<${1:Name}>();
+  }
+
+  @override
+  bool updateShouldNotify(${1:Name} oldWidget) {
+    return ${2:true};
+  }
+}
+

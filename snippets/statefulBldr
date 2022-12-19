@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Stateful Builder
+# key: statefulBldr
+# description: Creates a widget that both has state and delegates its build to a callback. Useful for rebuilding specific sections of the widget tree.
+# --
+StatefulBuilder(
+  builder: (BuildContext context, setState) {
+    return ${0:};
+  },
+),
+

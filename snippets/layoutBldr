@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Layout Builder
+# key: layoutBldr
+# description: Similar to the Builder widget except that the framework calls the builder function at layout time and provides the parent widget's constraints.
+# --
+LayoutBuilder(
+  builder: (BuildContext context, BoxConstraints constraints) {
+    return ${0:};
+  },
+),
+

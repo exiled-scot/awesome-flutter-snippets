@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Test
+# key: f-test
+# description: Create a test function
+# --
+test(
+  "${1:test description}",
+  () {},
+);
+

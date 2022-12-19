@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Single Child ScrollView
+# key: singleChildSV
+# description: Creates a scroll view with a single child
+# --
+SingleChildScrollView(
+  controller: ${1:controller,}
+  child: Column(
+    ${0:}
+  ),
+),
+

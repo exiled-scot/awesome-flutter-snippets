@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Custom Clipper 
+# key: customClipper
+# description: Used for creating custom shapes
+# --
+class ${0:name}Clipper extends CustomClipper<Path> {
+
+  @override
+  Path getClip(Size size) {
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
+}
+

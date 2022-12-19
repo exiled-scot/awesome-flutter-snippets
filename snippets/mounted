@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Mounted
+# key: mounted
+# description: Whether this State object is currently in a tree.
+# --
+@override
+bool get mounted {
+  ${0:}
+}
+

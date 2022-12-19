@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Animated Builder
+# key: animatedBldr
+# description: Creates an Animated Builder. The widget specified to `child` is passed to the `builder`
+# --
+AnimatedBuilder(
+  animation: ${1:animation},
+  child: ${2:child},
+  builder: (BuildContext context, Widget? child) {
+    return ${3:};
+  },
+),
+

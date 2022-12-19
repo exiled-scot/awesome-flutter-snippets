@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Custom Painter 
+# key: customPainter
+# description: Used for creating custom paint
+# --
+class ${0:name}Painter extends CustomPainter {
+
+  @override
+  void paint(Canvas canvas, Size size) {
+  }
+
+  @override
+  bool shouldRepaint(${0:name}Painter oldDelegate) => false;
+
+  @override
+  bool shouldRebuildSemantics(${0:name}Painter oldDelegate) => false;
+}
+

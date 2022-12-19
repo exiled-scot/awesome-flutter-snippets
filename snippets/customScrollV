@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Custom Scroll View
+# key: customScrollV
+# description: Creates a `ScrollView` that creates custom scroll effects using slivers. If the `primary` argument is true, the `controller` must be null.
+# --
+CustomScrollView(
+  slivers: <Widget>[
+    ${0:}
+  ],
+),
+

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: didUpdateWidget
+# key: didUpdateW
+# description: Called whenever the widget configuration changes.
+# --
+@override
+void didUpdateWidget (${1:Type} ${2:oldWidget}) {
+  super.didUpdateWidget(${2:oldWidget});
+  ${0:}
+}
+

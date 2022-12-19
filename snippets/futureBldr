@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Future Builder
+# key: futureBldr
+# description: Creates a Future Builder. This builds itself based on the latest snapshot of interaction with a Future.
+# --
+FutureBuilder(
+  future: ${1:Future},
+  initialData: ${2:InitialData},
+  builder: (BuildContext context, AsyncSnapshot snapshot) {
+    return ${3:};
+  },
+),
+

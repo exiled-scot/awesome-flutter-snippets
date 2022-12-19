@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Dispose
+# key: dis
+# description: Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.
+# --
+@override
+void dispose() {
+  ${0:}
+  super.dispose();
+}
+

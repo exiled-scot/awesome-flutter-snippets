@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: GridView.Extent
+# key: gridViewE
+# description: Creates a scrollable, 2D array of widgets with tiles that each have a maximum cross-axis extent.
+# --
+GridView.extent(
+  maxCrossAxisExtent:  ${1:2},
+  children: <Widget> [
+    ${2:}
+  ],
+),
+

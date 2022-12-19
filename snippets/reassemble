@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Reassemble
+# key: reassemble
+# description: Called whenever the application is reassembled during debugging, for example during hot reload.
+# --
+@override
+void reassemble(){
+  super.reassemble();
+  ${0:}
+}
+

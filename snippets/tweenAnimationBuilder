@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Tween Animation Builder
+# key: tweenAnimationBuilder
+# description: Widget builder that animates a property of a Widget to a target value whenever the target value changes.
+# --
+TweenAnimationBuilder(
+  duration: ${1:const Duration(),}
+  tween: ${2:Tween(),}
+  builder: (BuildContext context, ${3:dynamic} value, Widget? child) {
+    return ${4:Container();}
+  },
+),
+

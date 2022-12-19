@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Sink
+# key: snk
+# description: A Sink is the input of a stream.
+# --
+Sink<${1:type}> get ${2:name} => _${2:name}Controller.sink;
+final _${2:name}Controller = StreamController<${1:type}>();
+

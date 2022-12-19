@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: toString
+# key: toStr
+# description: Returns a string representation of this object.
+# --
+@override
+String toString() => ${1:toString}
+

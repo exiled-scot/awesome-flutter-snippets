@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: No Such Method
+# key: nosm
+# description: This method is invoked when a non-existent method or property is accessed.
+# --
+@override
+dynamic noSuchMethod(Invocation invocation) {
+  ${1:}
+}
+

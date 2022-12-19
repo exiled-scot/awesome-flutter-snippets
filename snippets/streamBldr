@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Stream Builder
+# key: streamBldr
+# description: Creates a new `StreamBuilder` that builds itself based on the latest snapshot of interaction with the specified `stream`
+# --
+StreamBuilder(
+  stream: ${1:stream},
+  initialData: ${2:initialData},
+  builder: (BuildContext context, AsyncSnapshot snapshot) {
+    return Container(
+      child: ${3:child},
+    );
+  },
+),
+
