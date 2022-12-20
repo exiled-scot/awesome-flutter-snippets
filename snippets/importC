@@ -3,44 +3,4 @@
 # key: importC
 # description: Import Flutter Cupertino package
 # --
-i
-m
-p
-o
-r
-t
- 
-'
-p
-a
-c
-k
-a
-g
-e
-:
-f
-l
-u
-t
-t
-e
-r
-/
-c
-u
-p
-e
-r
-t
-i
-n
-o
-.
-d
-a
-r
-t
-'
-;
-
+import 'package:flutter/cupertino.dart';
